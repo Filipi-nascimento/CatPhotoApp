@@ -27,9 +27,34 @@
             </ul>
             <figure>
                 <img src="imagens\lasagna.jpg" alt="A slice of lasagna on a plate.">
-                <figcaption>Cats <em>love</em> lasagna</figcaption><!--Figcaption; it add legend in picture | EM: it add emphaze in word-->
+                <figcaption>Cats <em>love</em> lasagna</figcaption> <!--Figcaption; it add legend in picture | EM: it add emphaze in word-->
             </figure>
             <h3>Top 3 things cats hate:</h3>
+                <ol>
+                    <li>flea treatment</li>
+                    <li>thunder</li>
+                    <li>other cats</li>
+                </ol>
+                <figure>
+                    <img src="imagens\cats.jpg" alt="Five cats looking around a field.">
+                    <figcaption>cats <strong>hate</strong> other cats.</figcaption> <!-- strong is same bold letters-->
+                </figure>
+        </section>
+        <section>
+            <h2>Cat Form</h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo"> <!-- form: it define a formulary | step 36-->
+            <fieldset>
+                <legend>Is your cat an indoor or outdoor cat?</legend>
+                <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor">Indoor</label> <!--step 45-->
+                <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">Outdoor</label>
+            </fieldset>
+            <fieldset>
+                <legend>What's your cat's personality?</legend>
+                <input id="loving" type="checkbox" name="personality"> <label for="loving">Loving</label>
+            </fieldset>
+            <input type="text" name="catphotourl" placeholder="Cat photo URL" required> <!-- step 37 and 38-->
+            <button type="submit">Submit</button>
+            </form>
         </section>
     </main>
 </body>
